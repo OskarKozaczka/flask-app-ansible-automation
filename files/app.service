@@ -1,0 +1,11 @@
+[Unit]
+Description=My ceneoscrapper
+After=network-online.target
+[Service]
+Type=simple
+User=ceneoscrapper
+ExecStart=/opt/ceneoscrapper/.venv/bin/flask run --host 0.0.0.0 --port 8080
+WorkingDirectory=/opt/ceneoscrapper
+Restart=always
+[Install]
+WantedBy=multi-user.target
