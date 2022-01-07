@@ -13,4 +13,5 @@
 netflow:
 user -> proxy -> app 
 
+![alt text](https://github.com/OskarKozaczka/flask-app-ansible-automation/blob/main/diagram.png?raw=true)
 ![alt text](https://github.com/OskarKozaczka/flask-app-ansible-automation/blob/main/fl.png?raw=true)
