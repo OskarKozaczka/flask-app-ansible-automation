@@ -10,4 +10,7 @@
 10. We will specify Nginx config and copy it to our machine
 11. After reloading Nginx we should have both flask app and proxy
 
+netflow:
+user -> proxy -> app 
+
 ![alt text](https://github.com/OskarKozaczka/flask-app-ansible-automation/blob/main/fl.png?raw=true)
